@@ -1,3 +1,6 @@
-function printidentity() print('Current identity is 7') end
+local identity = 7
+
+function printidentity() print('Current identity is ' .. identity) end
 function identifyexecutor() return 'Solar-XS' end
-function getthreadidentity() return '7' end
+function getthreadidentity() return identity end
+function setthreadidentity(v) identity = v end
