@@ -9,3 +9,4 @@ function saveInstance() return loadstring(game:HttpGet("https://raw.githubuserco
 function decompile() saveInstance() end
 function hookfunction() return true end
 function debug.setupvalue() return 'success' end
+function sethiddenproperty(v1,v2,v3) return true end
