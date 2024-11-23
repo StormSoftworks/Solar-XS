@@ -450,12 +450,6 @@ local script = G2L["29"];
 			script.Parent.Enabled = not script.Parent.Enabled
 		end
 	end)
-	
-	game:GetService('StarterGui'):SetCore("SendNotification", {
-		Title = "Keybind";
-		Text = "Press Insert to open";
-		Duration = 5;
-	})
 end;
 task.spawn(C_29);
 
